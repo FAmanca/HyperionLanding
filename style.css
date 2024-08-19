@@ -1,0 +1,68 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+span {
+  color: #e9430c;
+  font-weight: bold;
+}
+
+.hero {
+  height: 750px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hero2 {
+  height: 1000px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+  z-index: -2;
+}
+
+.text {
+  text-align: center;
+  z-index: 1;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.text h1 {
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text h2 {
+  color: whitesmoke;
+}
+
+.navbar .jdl {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.custom-card {
+  width: 20rem;
+  height: 25rem;
+}
+
+.foot {
+  position: relative;
+  z-index: 10;
+}
